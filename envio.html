@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NorthWay Store Online - NorthWay (MX)</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="envio.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container entrega-personal">
+            <form>
+                <h1>Entrega Personal</h1>
+                <span>Rellena los siguientes datos para programar una entrega</span>
+                <input type="number" placeholder="Número Telefónico">
+				<input type="text" placeholder="Forma de Pago (Efectivo/Tarjeta)">
+                <button class="pedido">Ir a Pedido</button>
+            </form>
+        </div>
+        <div class="form-container entrega-domicilio">
+            <form>
+                <h1>Entrega a Domicilio</h1>
+                <span>Rellena los siguientes datos para el envío de tu producto</span>
+                <input type="text" placeholder="Calle">
+				<input type="number" placeholder="No.">
+                <input type="text" placeholder="Colonia">
+				<input type="number" placeholder="Código Postal">
+				<input type="text" placeholder="Municipio">
+				<input type="text" placeholder="Estado">
+                <button class="pedido">Ir a Pedido</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Deseas una entrega a Domicilio?</h1>
+                    <p>Rellena los siguientes datos para el envío de tu producto</p>
+                    <button class="hidden" id="login">Entrega a Domicilio</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Deseas una entrega Personal?</h1>
+                    <p>Rellena los siguientes datos para programar una entrega</p>
+                    <button class="hidden" id="register">Entrega Personal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="envio.js"></script>
+</body>
+
+</html>

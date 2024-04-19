@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1a21;
+    color: #ffffff;
+    overflow-x: hidden; /* Cambiado a hidden para evitar la barra de desplazamiento horizontal */
+}
+
+.logo-image {
+    max-width: 100%; /* Cambiado a un ancho máximo */
+    height: auto; /* Para mantener la proporción */
+    object-fit: contain;
+}
+
+.custom-gray-bg {
+    background-color: #1c1a21;
+}
+
+.top-navigation-bg {
+    background-color: transparent;
+}
+
+.top-navigation-text {
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+.main-header-text {
+    color: #ffffff;
+}
+
+.carousel-text {
+    color: #ffffff;
+}
+
+.latest-products-text {
+    color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute; /* Cambiado a absolute */
+    background-color: #1c1a21;
+    box-shadow: 0 4px 8px rgba(141, 137, 137, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    background-color: #2b2833;
+}
+
+#carousel-indicators {
+    position: absolute;
+    bottom: 10px; /* Ajustado para que no se solape con el contenido */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translateX(-50%); /* Centrado horizontalmente */
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background-color: #333;
+}
+
+.contact {
+    color: #ccc;
+    background-color: #0e0d11;
+}
