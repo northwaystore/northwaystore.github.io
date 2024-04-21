@@ -6,12 +6,12 @@
 
 body{
     font-family: Arial;
-    background-color: #1c1a21;
+    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 }
 
 
 .nav{
-    background-color: #1c1a21;
+    background-color: rgba(0, 0, 0, 0.3);
     border: 2px solid rgba(255,255,255,0.1);
 	box-shadow: 0 0 40px rgba(8,7,16,0.6);
 
@@ -66,7 +66,7 @@ body{
 
 .dropdown{
     position: absolute;
-    background-color: #1c1a21;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid rgba(255,255,255,0.1);
 	box-shadow: 0 0 40px rgba(8,7,16,0.6);
     width: 75%;
@@ -92,7 +92,7 @@ body{
 }
 
 .dropdown__link{
-    color: rgb(184, 187, 191);
+    color: rgb(255, 255, 255);
     padding: 1em .7em;
     text-decoration: none;
     
